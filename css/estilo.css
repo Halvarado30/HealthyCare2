@@ -318,7 +318,22 @@ ul {
     flex: 1 0 auto;
     font-family: var(--fuente-principal);
 }
+
+.contenido-sitio1 {
+    background-color: var(--blanco);
+    padding: 50px 50px; 
+    flex: 1 0 auto;
+    font-family: var(--fuente-principal);
+}
+
 .contenido-sitio h3 {
+    font-family: var(--fuente-titulo);
+    color: var(--titulos);
+    font-size: 5rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.contenido-sitio1 h3 {
     font-family: var(--fuente-titulo);
     color: var(--titulos);
     font-size: 5rem;
@@ -346,10 +361,23 @@ ul {
     font-size: 1em;
     line-height: 2;
 }
+.contenido-sitio1 h3 {
+    font-size: 2.4em;
+    text-align: center;
+}
+
+.contenido-sitio1 p {
+    text-align: justify;
+    font-size: 1em;
+    line-height: 2;
+}
 
 @media only screen and (min-width: 768px) {
     .contenido-sitio {
         margin: 50px 50px 20px 50px;
+    }
+    .contenido-sitio1 {
+        height: 800px;
     }
 } 
 
