@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HEALTHYCARE</title>
+    <script src="js/reloj.js"></script>
+    <!-- Hojas de estilo personalizadas -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilo-pages.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans" rel="stylesheet">
+</head>
+<body onload="Reloj()">
+    <!-- -------------- Header ----------------- -->
+    <header class="header-sitio">
+        <img class="logo" src="img/logo.png" alt="logo">
+        <h2 class="logo">HealthyCare</h2>
+        <input type="checkbox" id="chk">
+        <label for="chk" class="show-menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <ul class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="page-one.html">Temas de Salud</a>
+            <a href="contactanos.html">Contáctanos</a>
+            <label for="chk" class="hide-menu-btn">
+                <i class="fas fa-times"></i>
+            </label>
+        </ul>
+    </header>
+    <div id="estilo-inicio">
+    </div>
+
+    <!-- -------------- Contenido ----------------- -->
+    <div class="contenido-sitio">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <section class="otras-entradas">
+                <h5 id="tittle-sidebar">Temas de Salud</h5>
+                <ul>
+                    <li>
+                        <a href="#enfermedades1">Enfermedades</a>
+                        <ul class="sub-enfermedades">
+                            <li><a href="clasificacion.html">- Clasificación de las enfermedades</a></li>
+                            <li><a href="enfermedadesA.html">- Enfermedades Agudas</a></li>
+                            <li><a href="enfermedadesC.html">- Enfermedades Crónicas</a></li>
+                            <li><a href="hipocondria.html">- Hipocondría</a></li>
+                            <li><a href="prevencion.html">- Formas de prevenir enfermedades infecciosas</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#saludmental1">Salud Mental</a>
+                        <ul class="sub-saludmental">
+                            <li><a href="autismo.html">- Autismo</a></li>
+                            <li><a href="depresion.html">- Depresión</a></li>
+                            <li><a href="estres.html">- Estrés</a></li>
+                            <li><a href="trastornos.html">- Trastornos de salud mental</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="salud-fisica.html">Salud Física</a></li>
+                </ul>
+            </section>
+        </aside>
+        <div class="contenido-salud">
+            <h3>Autismo</h3>
+            <p>Los trastornos del espectro autista (TEA) se encuadran dentro de los trastornos del neurodesarrollo y se caracterizan por las alteraciones relacionadas con la comunicación y la interacción social, así como por presentar intereses fijos y conductas repetitivas.
+
+            Hace unos años se diferenciaban distintos tipos de autismo, pero ahora se tiende a considerarlos en su conjunto y distinguirlos en función de su gravedad y de las habilidades a las que afectan. Partiendo de esa base, tal y como explica José Ángel Alda, jefe de Sección de Psiquiatría Infanto-Juvenil del Hospital Sant Joan de Déu, de Barcelona, "lo que se valora es, sobre todo, si hay discapacidad intelectual porque muchas personas con TEA tienen problemas en este área".</p>
+
+            <div class="img-contenidoA">
+                <img src="img/autismo.jpg" alt="autismo">
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------- Footer ------------------ -->
+    <footer class="footer-sitio clearfix">
+        <div class="contenedor clearfix">
+            <section class="nosotros">
+                <blockquote>
+                    <p>"Si tienes salud, probablemente serás feliz, y si tienes salud y felicidad, tienes toda la riqueza que necesitas, incluso si no es todo lo que quieres."</p>
+                </blockquote>
+                <p><em>-Elbert Hubbard.</em></p>
+            </section>
+            <br>
+            <section class="social">
+                <h3>Visita nuestras redes sociales</h3>
+                <nav>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                </nav>
+            </section>
+        </div>
+        <h3 class="copyright"><a href="http://www.unicah.edu">UNICAH-ICC | Jesús Sacramentado &copy;</a></h3>
+    </footer>
+</body>
+</html>

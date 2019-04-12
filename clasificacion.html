@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HEALTHYCARE</title>
+    <script src="js/reloj.js"></script>
+    <!-- Hojas de estilo personalizadas -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilo-pages.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans" rel="stylesheet">
+</head>
+<body onload="Reloj()">
+    <!-- -------------- Header ----------------- -->
+    <header class="header-sitio">
+        <img class="logo" src="img/logo.png" alt="logo">
+        <h2 class="logo">HealthyCare</h2>
+        <input type="checkbox" id="chk">
+        <label for="chk" class="show-menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <ul class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="page-one.html">Temas de Salud</a>
+            <a href="contactanos.html">Contáctanos</a>
+            <label for="chk" class="hide-menu-btn">
+                <i class="fas fa-times"></i>
+            </label>
+        </ul>
+    </header>
+    <div id="estilo-inicio">
+    </div>
+
+    <!-- -------------- Contenido ----------------- -->
+    <div class="contenido-sitio">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+                <section class="otras-entradas">
+                    <h5 id="tittle-sidebar">Temas de Salud</h5>
+                    <ul>
+                        <li>
+                            <a href="#enfermedades1">Enfermedades</a>
+                            <ul class="sub-enfermedades">
+                                <li><a href="clasificacion.html">- Clasificación de las enfermedades</a></li>
+                                <li><a href="enfermedadesA.html">- Enfermedades Agudas</a></li>
+                                <li><a href="enfermedadesC.html">- Enfermedades Crónicas</a></li>
+                                <li><a href="hipocondria.html">- Hipocondría</a></li>
+                                <li><a href="prevencion.html">- Formas de prevenir enfermedades infecciosas</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#saludmental1">Salud Mental</a>
+                            <ul class="sub-saludmental">
+                                <li><a href="autismo.html">- Autismo</a></li>
+                                <li><a href="depresion.html">- Depresión</a></li>
+                                <li><a href="estres.html">- Estrés</a></li>
+                                <li><a href="trastornos.html">- Trastornos de salud mental</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="salud-fisica.html">Salud Física</a></li>
+                    </ul>
+                </section>
+            </aside>
+        <div class="contenido-salud">
+            <h3>Clasificación de las enfermedades</h3>
+            <br>
+            <p>La clasificación de las enfermedades como entidades nosológicas son gobernadas por la nosotaxia, una disciplina dependiente de la nosología. Las clasificaciones son variadas y dependen de los criterios que se toman en cuenta.
+    
+            La clasificación de las enfermedades expresa el resultado de una inmensa cantidad de observaciones, de un intento de imprimirles orden y de una pretensión de que dicho orden no procede de una interpretación, sino de una correspondencia, un acercamiento al orden natural</p>
+            <br>
+            <blockquote>
+                <p>«En Medicina, las enfermedades se agrupan según tengan similitudes anatómicas, etiológicas o patogénicas. La clasificación más adecuada es la que aúna las tres particularidades. No es, sin embargo, lo frecuente.»</p>
+            </blockquote>
+            <p><em> (Farreras & Rozman, p.1259).</em></p>
+            <br>
+            <h4>Tipos de enfermedades</h4>
+            <p>La clasificación de las enfermedades está condicionado al criterio que se use para agruparlas. </p>
+            <br>
+            <h5>Según su duración: </h5>
+            <ul class="listas">
+                <li><i class="fas fa-check"></i> Agudas: Generalmente las que duran menos de tres meses</li>
+                <li><i class="fas fa-check"></i> Subagudas: Generalmente las que duran entre tres y seis meses</li>
+                <li><i class="fas fa-check"></i> Crónicas: Generalmente las que duran más de seis meses</li>
+            </ul>
+            <br>
+            <h5>Según su distribución: </h5>
+            <p>Según la población a la que afecta y su extensión o no a otras áreas geográficas, se clasifican en: </p>
+            <ul class="listas">
+                <li><i class="fas fa-check"></i> Esporádica: Afecta a muy pocas personas y aparecen de forma ocasional</li>
+                <li><i class="fas fa-check"></i> Endemia: Afecta frecuenemente a una región concreta de forma habitual y mantenida en el tiempo.</li>
+                <li><i class="fas fa-check"></i> Epidemia: Es un incremento significativamente elevado en el número de casos de una enfermedad con respecto al número de casos esperados, dentro de un área greográfica delimitada</li>
+                <li><i class="fas fa-check"></i> Pandemia: Una epidemia que afecta a zonas geográficas extensas (hasta llegar a la distribución mundial) generalmente durante un tiempo concreto.</li>
+            </ul>
+            <br>
+            <h5>Según su etiopatogenia</h5>
+            <p>Según la causa y la fisiopatología consecuente las enfermedades se pueden clasificar en: </p>
+            <ul class="listas">
+                    <li>Enfermedades endógenas</li>
+                    <li><i class="fas fa-check"></i> Genéticas</li>
+                    <li><i class="fas fa-check"></i> Congénita</li>
+                    <li><i class="fas fa-check"></i> Nutricionales</li>
+                    <li><i class="fas fa-check"></i> Metabólicas</li>
+                    <li><i class="fas fa-check"></i> Degenerativas</li>
+                    <li><i class="fas fa-check"></i> Autoinmunes</li>
+                    <li><i class="fas fa-check"></i> Inflamatiorias</li>
+                    <li><i class="fas fa-check"></i> Endocrinas</li>
+                    <li><i class="fas fa-check"></i> Mentales</li>
+            </ul>
+            <br>
+            <ul class="listas">
+                <li>Enfermedades exógenas (atribuibles al efecto de la acción directa del agente sobre el huésped)</li>
+
+                <li><i class="fas fa-check"></i> Infecciosas</li>
+                <li><i class="fas fa-check"></i> Parasitarias</li>
+                <li><i class="fas fa-check"></i> Venéreas</li>
+                <li><i class="fas fa-check"></i> Tóxicas</li>
+                <li><i class="fas fa-check"></i> Traumáticas</li>
+                <li><i class="fas fa-check"></i> Alérgicas</li>
+                <li><i class="fas fa-check"></i> Iatrógenas</li>
+        </div>
+    </div>
+
+    <!-- ---------------- Footer ------------------ -->
+    <footer class="footer-sitio clearfix">
+        <div class="contenedor clearfix">
+            <section class="nosotros">
+                <blockquote>
+                    <p>"Si tienes salud, probablemente serás feliz, y si tienes salud y felicidad, tienes toda la riqueza que necesitas, incluso si no es todo lo que quieres."</p>
+                </blockquote>
+                <p><em>-Elbert Hubbard.</em></p>
+            </section>
+            <br>
+            <section class="social">
+                <h3>Visita nuestras redes sociales</h3>
+                <nav>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                </nav>
+            </section>
+        </div>
+        <h3 class="copyright"><a href="http://www.unicah.edu">UNICAH-ICC | Jesús Sacramentado &copy;</a></h3>
+    </footer>
+</body>
+</html>

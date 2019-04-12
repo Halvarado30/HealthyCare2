@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HEALTHYCARE</title>
+    <script src="js/reloj.js"></script>
+    <!-- Hojas de estilo personalizadas -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilo-pages.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans" rel="stylesheet">
+</head>
+<body onload="Reloj()">
+    <!-- -------------- Header ----------------- -->
+    <header class="header-sitio">
+        <img class="logo" src="img/logo.png" alt="logo">
+        <h2 class="logo">HealthyCare</h2>
+        <input type="checkbox" id="chk">
+        <label for="chk" class="show-menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <ul class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="page-one.html">Temas de Salud</a>
+            <a href="contactanos.html">Contáctanos</a>
+            <label for="chk" class="hide-menu-btn">
+                <i class="fas fa-times"></i>
+            </label>
+        </ul>
+    </header>
+    <div id="estilo-inicio">
+    </div>
+
+    <!-- -------------- Contenido ----------------- -->
+    <div class="contenido-sitio">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+                <section class="otras-entradas">
+                    <h5 id="tittle-sidebar">Temas de Salud</h5>
+                    <ul>
+                        <li>
+                            <a href="#enfermedades1">Enfermedades</a>
+                            <ul class="sub-enfermedades">
+                                <li><a href="clasificacion.html">- Clasificación de las enfermedades</a></li>
+                                <li><a href="enfermedadesA.html">- Enfermedades Agudas</a></li>
+                                <li><a href="enfermedadesC.html">- Enfermedades Crónicas</a></li>
+                                <li><a href="hipocondria.html">- Hipocondría</a></li>
+                                <li><a href="prevencion.html">- Formas de prevenir enfermedades infecciosas</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#saludmental1">Salud Mental</a>
+                            <ul class="sub-saludmental">
+                                <li><a href="autismo.html">- Autismo</a></li>
+                                <li><a href="depresion.html">- Depresión</a></li>
+                                <li><a href="estres.html">- Estrés</a></li>
+                                <li><a href="trastornos.html">- Trastornos de salud mental</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="salud-fisica.html">Salud Física</a></li>
+                    </ul>
+                </section>
+            </aside>
+        <div class="contenido-salud">
+            <h3>Enfermedades Agudas</h3>
+            <p>Se considera una enfermedad aguda aquella que tiene un comienzo súbito y una evolución rápida, incluyendo su resolución. Las enfermedades crónicas, sin embargo, tienen un comienzo más lento y se mantienen en el tiempo. Estas son las primeras características que suelen mencionarse de las enfermedades agudas y crónicas, pero están lejos de ser las únicas. Otros puntos son igual de importantes a la hora de describir ambos procesos patológicos.  
+            </p>
+            <br>
+            <h4>Características</h4>
+            <p>
+                suele ser fácilmente diagnosticable o al menos no suele pasar desapercibida. Además, de forma frecuente se limita a un órgano o área específica del cuerpo. Una vez ocurre el diagnóstico y se instaura un tratamiento, la enfermedad remite si todo sale adecuadamente. En casos graves, la enfermedad aguda puede llevar a la muerte.
+                <br>
+                Es un punto importante a tener en cuenta que la diferencia entre enfermedad aguda o crónica no está marcada por la gravedad de la enfermedad en sí, sino por el tiempo de duración. Una enfermedad aguda puede llevar al fallecimiento en pocos minutos, por ejemplo, por un infarto agudo del miocardio, mientras que un individuo con una enfermedad crónica puede tener una esperanza de vida semejante a la de sus coetáneos sanos.
+            </p>
+            <br>
+            <h4>Ejemplos de enfermedades agudas</h4>
+            <p>Algunas condiciones que reflejan muy bien lo que es una enfermedad aguda: </p>
+            <ul class="listas">
+                <li><i class="fas fa-check"></i> Bronquitis aguda</li>
+                <li><i class="fas fa-check"></i> Conjuntivitis</li>
+                <li><i class="fas fa-check"></i> Fractura de hueso</li>
+                <li><i class="fas fa-check"></i> Apendicitis</li>
+                <li><i class="fas fa-check"></i> Gastroenteritis</li>
+                <li><i class="fas fa-check"></i> Urticaria aguda</li>
+                <li><i class="fas fa-check"></i> Crisis de asma</li>
+                <li><i class="fas fa-check"></i> Quemaduras</li>
+                <li><i class="fas fa-check"></i> Infarto agudo del miocardio</li>
+                <li><i class="fas fa-check"></i> Encefalomielitis aguda diseminada</li>
+                <li><i class="fas fa-check"></i> leucemia linfoblástica aguda</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <!-- ---------------- Footer ------------------ -->
+    <footer class="footer-sitio clearfix">
+        <div class="contenedor clearfix">
+            <section class="nosotros">
+                <blockquote>
+                    <p>"Si tienes salud, probablemente serás feliz, y si tienes salud y felicidad, tienes toda la riqueza que necesitas, incluso si no es todo lo que quieres."</p>
+                </blockquote>
+                <p><em>-Elbert Hubbard.</em></p>
+            </section>
+            <br>
+            <section class="social">
+                <h3>Visita nuestras redes sociales</h3>
+                <nav>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                </nav>
+            </section>
+        </div>
+        <h3 class="copyright"><a href="http://www.unicah.edu">UNICAH-ICC | Jesús Sacramentado &copy;</a></h3>
+    </footer>
+</body>
+</html>
